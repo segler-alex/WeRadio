@@ -57,15 +57,12 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     func play(urlStr: String){
         do{
             let url = URL(string: urlStr)
-            print("#1")
-            let item = AVPlayerItem(url: url!)
-            player = AVPlayer(playerItem: item)
-            print("#2");
+            player?.pause()
+            player = AVPlayer(url: url!)
             guard let player = player else {
                 print("player error")
                 return
             }
-            print("#3");
             player.volume = 1
             player.play()
         }

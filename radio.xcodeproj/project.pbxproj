@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D3D33D91E886C5700DD3B77 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3D33D81E886C5700DD3B77 /* AVFoundation.framework */; };
 		6DA2A0C91E7C26560086C614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A0C81E7C26560086C614 /* AppDelegate.swift */; };
 		6DA2A0CB1E7C26560086C614 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A0CA1E7C26560086C614 /* FirstViewController.swift */; };
 		6DA2A0CD1E7C26560086C614 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A0CC1E7C26560086C614 /* SecondViewController.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D3D33D81E886C5700DD3B77 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6DA2A0C51E7C26560086C614 /* radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA2A0C81E7C26560086C614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6DA2A0CA1E7C26560086C614 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D3D33D91E886C5700DD3B77 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,11 +75,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D3D33D71E886C5700DD3B77 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D3D33D81E886C5700DD3B77 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6DA2A0BC1E7C26560086C614 = {
 			isa = PBXGroup;
 			children = (
 				6DA2A0C71E7C26560086C614 /* radio */,
 				6DA2A0C61E7C26560086C614 /* Products */,
+				6D3D33D71E886C5700DD3B77 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
