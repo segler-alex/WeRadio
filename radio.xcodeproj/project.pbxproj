@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D0733CD1E88722900FD895C /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733C51E88722900FD895C /* Icon-App-29x29@1x.png */; };
+		6D0733CE1E88722900FD895C /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733C61E88722900FD895C /* Icon-App-29x29@2x.png */; };
+		6D0733CF1E88722900FD895C /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733C71E88722900FD895C /* Icon-App-40x40@1x.png */; };
+		6D0733D01E88722900FD895C /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733C81E88722900FD895C /* Icon-App-40x40@2x.png */; };
+		6D0733D11E88722900FD895C /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733C91E88722900FD895C /* Icon-App-60x60@2x.png */; };
+		6D0733D21E88722900FD895C /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733CA1E88722900FD895C /* Icon-App-60x60@3x.png */; };
+		6D0733D31E88722900FD895C /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733CB1E88722900FD895C /* Icon-App-76x76@1x.png */; };
+		6D0733D41E88722900FD895C /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D0733CC1E88722900FD895C /* Icon-App-76x76@2x.png */; };
 		6D3D33D91E886C5700DD3B77 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D3D33D81E886C5700DD3B77 /* AVFoundation.framework */; };
 		6DA2A0C91E7C26560086C614 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A0C81E7C26560086C614 /* AppDelegate.swift */; };
 		6DA2A0CB1E7C26560086C614 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA2A0CA1E7C26560086C614 /* FirstViewController.swift */; };
@@ -35,6 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D0733C51E88722900FD895C /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		6D0733C61E88722900FD895C /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		6D0733C71E88722900FD895C /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		6D0733C81E88722900FD895C /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		6D0733C91E88722900FD895C /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		6D0733CA1E88722900FD895C /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		6D0733CB1E88722900FD895C /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		6D0733CC1E88722900FD895C /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
 		6D3D33D81E886C5700DD3B77 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		6DA2A0C51E7C26560086C614 /* radio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA2A0C81E7C26560086C614 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +121,14 @@
 		6DA2A0C71E7C26560086C614 /* radio */ = {
 			isa = PBXGroup;
 			children = (
+				6D0733C51E88722900FD895C /* Icon-App-29x29@1x.png */,
+				6D0733C61E88722900FD895C /* Icon-App-29x29@2x.png */,
+				6D0733C71E88722900FD895C /* Icon-App-40x40@1x.png */,
+				6D0733C81E88722900FD895C /* Icon-App-40x40@2x.png */,
+				6D0733C91E88722900FD895C /* Icon-App-60x60@2x.png */,
+				6D0733CA1E88722900FD895C /* Icon-App-60x60@3x.png */,
+				6D0733CB1E88722900FD895C /* Icon-App-76x76@1x.png */,
+				6D0733CC1E88722900FD895C /* Icon-App-76x76@2x.png */,
 				6DA2A0C81E7C26560086C614 /* AppDelegate.swift */,
 				6DA2A0CA1E7C26560086C614 /* FirstViewController.swift */,
 				6DA2A0CC1E7C26560086C614 /* SecondViewController.swift */,
@@ -225,9 +249,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D0733D21E88722900FD895C /* Icon-App-60x60@3x.png in Resources */,
+				6D0733CE1E88722900FD895C /* Icon-App-29x29@2x.png in Resources */,
 				6DA2A0D51E7C26560086C614 /* LaunchScreen.storyboard in Resources */,
+				6D0733D11E88722900FD895C /* Icon-App-60x60@2x.png in Resources */,
 				6DA2A0D21E7C26560086C614 /* Assets.xcassets in Resources */,
+				6D0733D41E88722900FD895C /* Icon-App-76x76@2x.png in Resources */,
+				6D0733D01E88722900FD895C /* Icon-App-40x40@2x.png in Resources */,
+				6D0733CF1E88722900FD895C /* Icon-App-40x40@1x.png in Resources */,
+				6D0733D31E88722900FD895C /* Icon-App-76x76@1x.png in Resources */,
 				6DA2A0D01E7C26560086C614 /* Main.storyboard in Resources */,
+				6D0733CD1E88722900FD895C /* Icon-App-29x29@1x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
