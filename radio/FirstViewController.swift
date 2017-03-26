@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import AVFoundation
 
 class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     var stations: [RadioStation] = []
     @IBOutlet var tblStations: UITableView!
+    
+    var player: AVPlayer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,6 +46,32 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.detailTextLabel?.text = stations[indexPath.row].tags
         
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        let station = stations[indexPath.row]
+        print("click on " + station.name)
+        play(urlStr: station.url)
+    }
+    
+    func play(urlStr: String){
+        do{
+            let url = URL(string: urlStr)
+            print("#1")
+            let item = AVPlayerItem(url: url!)
+            player = AVPlayer(playerItem: item)
+            print("#2");
+            guard let player = player else {
+                print("player error")
+                return
+            }
+            print("#3");
+            player.volume = 1
+            player.play()
+        }
+        catch let error{
+            print(error.localizedDescription)
+        }
     }
 }
 
